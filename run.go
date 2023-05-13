@@ -5,11 +5,11 @@ import "fmt"
 var globalMap map[string]string = make(map[string]string)
 
 func Register(k, v string) {
-	fmt.Println("testlib1@v0.2.1 Register")
+	fmt.Println("testlib1@v2.0.1 Register")
 	globalMap[k] = v
 }
 
 func GetAll() {
-	fmt.Println("testlib1@v0.2.1 GetAll")
+	fmt.Println("testlib1@v2.0.1 GetAll")
 	fmt.Println(globalMap)
 }
